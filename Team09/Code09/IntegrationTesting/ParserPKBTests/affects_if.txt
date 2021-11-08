@@ -1,0 +1,24 @@
+procedure if{
+    a = b;
+    c = a;
+    d = e;
+    f = h;
+    if (i < 0) then {
+        d = xx;
+        yy = c;
+     	f = x;
+        a = b;
+    } else {
+	f = y;
+        c = yy;
+        xx = d;
+        c = a;
+    }
+
+    z = f;
+    b = a;
+    a = c;
+}
+
+
+

@@ -1,0 +1,55 @@
+procedure name{variable=variable+variable;variable = variable - 1;
+    variable=100/variable;
+    variable = 0 * 1;
+
+    if ( x < 0 ) then {
+        x = x % 2; 
+    } else {
+        x = 2 % x;
+    }		
+	
+    while ( ((while<=1) && (if>2)) || ((call >= 3) && (procedure != 3)) || (then==4) ) {
+	read read;print print;call call;procedure = call + read - print * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+procedure % if + then - else * while;}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

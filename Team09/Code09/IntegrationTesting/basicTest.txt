@@ -1,0 +1,6 @@
+procedure proc1 {
+    print var1;
+    read var2;
+    call proc2;
+    var3 = 1 + var4;
+}

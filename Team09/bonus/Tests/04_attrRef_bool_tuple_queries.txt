@@ -1,0 +1,260 @@
+1 - Select boolean no clause
+
+Select BOOLEAN
+TRUE
+5000
+2 - Select boolean - returns true 
+
+Select BOOLEAN such that Follows(1, 2)
+TRUE
+5000
+3 - Select boolean returns true with synonyms
+stmt s1, s2;
+Select BOOLEAN such that Follows(s1, s2)
+TRUE
+5000
+4 - Select boolean return false
+
+Select BOOLEAN such that Follows(2, 1)
+FALSE
+5000
+5 - Select boolean return false with synonyms
+stmt s1, s2;
+Select BOOLEAN such that Follows(s1, s2) and Follows(s2, s1)
+FALSE
+5000
+6 - Select boolean return true AND return false
+
+Select BOOLEAN such that Follows(1, 2) and Follows(2, 1)
+FALSE
+5000
+7 - Select boolean return true AND return true with synonyms
+stmt s1, s2;
+Select BOOLEAN such that Follows(1, 2) and Follows(s1, s2)
+TRUE
+5000
+8 - Select boolean return true AND multiple clauses that return false
+stmt s1, s2;
+Select BOOLEAN such that Follows(1,2) such that Follows(s1, s2) and Follows(s2, s1)
+FALSE
+5000
+9 - Select boolean return true with synonyms AND multiple clauses that return false
+stmt s1, s2;
+Select BOOLEAN such that Follows(s1, s2) such that Follows(s1, s2) and Follows(s2, s1)
+FALSE
+5000
+10 - Select boolean return true with synonyms AND return false
+stmt s1, s2;
+Select BOOLEAN such that Follows(s1, s2) such that Follows(2, 1)
+FALSE
+5000
+11 - Select boolean multiple clauses that return false AND return true
+stmt s1, s2;
+Select BOOLEAN such that Follows(s1, s2) and Follows(s2, s1) such that Follows(1, 2)
+FALSE
+5000
+12 - Select boolean with clause return true
+
+Select BOOLEAN with 1 = 1
+TRUE
+5000
+13 - Select boolean with clause return false
+
+Select BOOLEAN with 1 = 2
+FALSE
+5000
+14 - Select boolean with clause attrRef return true
+stmt s;
+Select BOOLEAN with s.stmt# = 1
+TRUE
+5000
+15 - Select boolean with clause attrRef return false
+stmt s;
+Select BOOLEAN with s.stmt# = 36
+FALSE
+5000
+16 - Select boolean such that clause with wildcard return true
+
+Select BOOLEAN such that Follows(_,_)
+TRUE
+5000
+17 - Select boolean pattern clause with wildcards return true
+assign a;
+Select BOOLEAN pattern a(_,_)
+TRUE
+5000
+18 - Select tuples double With clauses
+stmt s1, s2;
+Select <s1, s2> with s1.stmt# = 20 and s2.stmt# = 3
+20 3
+5000
+19 - Select tuples with clause AND Parent* clause with one synonym
+stmt s1, s2;
+Select <s1, s2> with s1.stmt# = 16 such that Parent*(s2, 15)
+16 11, 16 10
+5000
+20 - Select tuples while stmts AND Follows with one synonym
+stmt s; while w;
+Select <w, s> such that Follows(10, s)
+4 17, 10 17, 18 17, 20 17, 24 17
+5000
+21 - Select tuples stmts AND Next with one synonym
+stmt s1, s2;
+Select <s1, s2> such that Next(s2, 3)
+1 2, 2 2, 3 2, 4 2, 5 2, 6 2, 7 2, 8 2, 9 2, 10 2, 11 2, 12 2, 13 2, 14 2, 15 2, 16 2, 17 2, 18 2, 19 2, 20 2, 21 2, 22 2, 23 2, 24 2, 25 2, 26 2, 27 2, 28 2, 29 2, 30 2, 31 2, 32 2, 33 2, 34 2, 35 2
+5000
+22 - Select tuples of stmts AND With clause AND two clauses that return true
+stmt s1, s2; call c; prog_line n;
+Select <s1, n> with n = 3 such that Next(s2, 5) and Follows*(1, c)
+1 3, 2 3, 3 3, 4 3, 5 3, 6 3, 7 3, 8 3, 9 3, 10 3, 11 3, 12 3, 13 3, 14 3, 15 3, 16 3, 17 3, 18 3, 19 3, 20 3, 21 3, 22 3, 23 3, 24 3, 25 3, 26 3, 27 3, 28 3, 29 3, 30 3, 31 3, 32 3, 33 3, 34 3, 35 3
+5000
+23 - Select tuples of two different procedure names
+procedure p, q;
+Select <p.procName, q.procName>
+A B, A C, A D, A E, B A, B C, B D, B E, C A, C B, C D, C E, D A, D B, D C, D E, E A, E B, E C, E D, A A, B B, C C, D D, E E
+5000
+24 - Select tuples of three same procedures
+procedure p;
+Select <p, p, p>
+A A A, B B B, C C C, D D D, E E E
+5000
+25 - Select tuples of stmts with three different clauses that overlap
+stmt s; read r; print p;
+Select <s, r, p> such that Parent*(s, 21) and Follows(30, r) and Follows(34, p)
+20 31 35, 17 31 35
+5000
+26 - Select tuples of if stmts and Next clause with one synonym overlap
+if ifs; stmt s;
+Select <ifs.stmt#, s.stmt#> such that Next(30, s)
+11 31, 17 31, 26 31
+5000
+27 - Select tuples of if stmts and procedures
+if ifs; procedure p;
+Select <p, ifs>
+A 11, B 11, C 11, D 11, E 11, A 17, B 17, C 17, D 17, E 17, A 26, B 26, C 26, D 26, E 26
+5000
+28 - Select tuples of two same statement numbers
+stmt s;
+Select <s.stmt#, s.stmt#>
+1 1, 2 2, 3 3, 4 4, 5 5, 6 6, 7 7, 8 8, 9 9, 10 10, 11 11, 12 12, 13 13, 14 14, 15 15, 16 16, 17 17, 18 18, 19 19, 20 20, 21 21, 22 22, 23 23, 24 24, 25 25, 26 26, 27 27, 28 28, 29 29, 30 30, 31 31, 32 32, 33 33, 34 34, 35 35
+5000
+29 - Select tuples of two same statements
+stmt s;
+Select <s, s>
+1 1, 2 2, 3 3, 4 4, 5 5, 6 6, 7 7, 8 8, 9 9, 10 10, 11 11, 12 12, 13 13, 14 14, 15 15, 16 16, 17 17, 18 18, 19 19, 20 20, 21 21, 22 22, 23 23, 24 24, 25 25, 26 26, 27 27, 28 28, 29 29, 30 30, 31 31, 32 32, 33 33, 34 34, 35 35
+5000
+30 - Select tuples of two same constant values
+constant c;
+Select <c.value, c.value>
+0 0, 1 1, 2 2, 3 3, 4 4
+5000
+31 - Select tuples of two same variable names
+variable v;
+Select <v.varName, v.varName>
+a a, b b, c c, x x, y y, z z
+5000
+32 - Select tuples of two same call statement procedure names
+call c;
+Select <c.procName, c.procName>
+B B, C C, D D, E E
+5000
+33 - Select tuples of two same read statement variable names
+read r;
+Select <r.varName, r.varName>
+a a, b b, c c, x x, y y, z z
+5000
+34 - Select tuples of two same print statement variable names
+print p;
+Select <p.varName, p.varName>
+x x, y y, z z
+5000
+35 - Select tuples of two same constants
+constant c;
+Select <c, c>
+0 0, 1 1, 2 2, 3 3, 4 4
+5000
+36 - Select tuples of two same read statements
+read r;
+Select <r, r>
+1 1, 5 5, 9 9, 16 16, 22 22, 23 23, 30 30, 31 31, 32 32
+5000
+37 - Select tuples of two same print statements
+print p;
+Select <p, p>
+7 7, 14 14, 33 33, 34 34, 35 35
+5000
+38 - Select tuples of two same call statements
+call c;
+Select <c, c>
+8 8, 12 12, 15 15, 19 19, 21 21, 25 25, 28 28, 29 29
+5000
+39 - Select tuples of two same while statements
+while w;
+Select <w, w>
+4 4, 10 10, 18 18, 20 20, 24 24
+5000
+40 - Select tuples of two same if statements
+if ifs;
+Select <ifs, ifs>
+11 11, 17 17, 26 26
+5000
+41 - Select tuples of two same assign statements
+assign a;
+Select <a, a>
+2 2, 3 3, 6 6, 13 13, 27 27
+5000
+42 - Select tuples of two same variables
+variable v;
+Select <v, v>
+a a, b b, c c, x x, y y, z z
+5000
+43 - Select tuples of two same program lines
+prog_line n;
+Select <n, n>
+1 1, 2 2, 3 3, 4 4, 5 5, 6 6, 7 7, 8 8, 9 9, 10 10, 11 11, 12 12, 13 13, 14 14, 15 15, 16 16, 17 17, 18 18, 19 19, 20 20, 21 21, 22 22, 23 23, 24 24, 25 25, 26 26, 27 27, 28 28, 29 29, 30 30, 31 31, 32 32, 33 33, 34 34, 35 35
+5000
+44 - Select tuples of synonym and attrRef without overlap
+if ifs1, ifs2;
+Select <ifs1, ifs2.stmt#>
+11 11, 11 17, 11 26, 17 11, 17 17, 17 26, 26 11, 26 17, 26 26
+5000
+45 - Select tuples of synonym and attrRef with overlap
+stmt s;
+Select <s, s.stmt#>
+1 1, 2 2, 3 3, 4 4, 5 5, 6 6, 7 7, 8 8, 9 9, 10 10, 11 11, 12 12, 13 13, 14 14, 15 15, 16 16, 17 17, 18 18, 19 19, 20 20, 21 21, 22 22, 23 23, 24 24, 25 25, 26 26, 27 27, 28 28, 29 29, 30 30, 31 31, 32 32, 33 33, 34 34, 35 35
+5000
+46 - Select tuples of BOOLEAN return none
+
+Select <BOOLEAN, BOOLEAN>
+none
+5000
+47 - Select tuples with false clauses
+stmt s1, s2;
+Select <s, a, p> such that Next(3, 2) and Follows(2, 1) and Parent(8, 9)
+none
+5000
+48 - Select tuples with false With clause
+stmt s; variable v1, v2;
+Select <s, v1> with v2.varName = "abc"
+none
+5000
+49 - Select tuples with false Pattern clause
+stmt s; assign a;
+Select <a, s> pattern a ("abc", _)
+none
+5000
+50 - Select undeclared tuples
+stmt s; variable v;
+Select <s1, v1>
+none
+5000
+51 - Select tuples with many same variables
+variable v;
+Select <v, v.varName, v, v.varName, v, v.varName, v, v.varName, v, v.varName>
+a a a a a a a a a a, b b b b b b b b b b, c c c c c c c c c c, x x x x x x x x x x, y y y y y y y y y y, z z z z z z z z z z
+5000
+52 - Select tuples with multiple Next* clauses
+prog_line n;
+Select <n, n> such that Next*(n, 21) and Next*(n, 20) and Next*(n, 17) and Next*(n, 16) and Next*(n, 15) and Next*(n, 14) and Next*(n, 11) and Next*(n, 10)
+9 9, 10 10,11 11,12 12,13 13,14 14,15 15,16 16
+5000

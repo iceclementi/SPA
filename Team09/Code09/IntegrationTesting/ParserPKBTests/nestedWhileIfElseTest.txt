@@ -1,0 +1,13 @@
+procedure proc1 {
+    while ( var1 != 1) {
+        if ( var2 < 2) then {
+read var3;
+            print var4;
+            var5 = var4 * var5;
+    } else {
+            read var6;
+            print var7;
+            var8 = var9 / 5;
+    }
+}
+}

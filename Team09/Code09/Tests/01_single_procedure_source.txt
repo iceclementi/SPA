@@ -1,0 +1,51 @@
+procedure procedure {
+  a = 1;
+  read b;
+  if (b == 1) then {
+    c = b + a;
+    if = a;
+    then = b;
+    else = c;
+  } else {
+    c = b - a;
+    if = c;
+    then = b;
+    else = a;
+  }
+  print a;
+  print b;
+  print c;
+  while (c != 0) {
+    c = c - 1;
+    d = d * 2;
+    while = c / d;
+    print while;
+  }
+  read procedure;
+  procedure = procedure;
+  print procedure;
+  read read;
+  read = 100 % read;
+  print read;
+  read print;
+  print = procedure + (read * print);
+  print print;
+  while = (read + a) / (print % b);
+  if = while;
+  then = (100);
+  else = (then);
+  a = 1234567890;
+  A = (if) + (then * else) - then / else * print * read;
+  print a;
+  print A;
+  read while;
+  print while;
+  read if;
+  print if;
+  read then;
+  print then;
+  read else;
+  print else;
+  read abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+  print abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+}

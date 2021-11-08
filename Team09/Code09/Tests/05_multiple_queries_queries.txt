@@ -1,0 +1,165 @@
+1 - Next,NextT,Calls,CallsT (synonym1, synonym2)
+stmt s1, s2, s3, s4, s5; procedure p1, p2, p3, p4;
+Select s1 such that Next(s2, s3) and Next*(s4, s5) and Calls(p1, p2) and Calls*(p3, p4)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+5000
+2 - Next,NextT,Calls,CallsT (synonym1, synonym2), With (attrRef = IDENT)
+stmt s1, s2, s3; procedure p1, p2, p3;
+Select <s1, p1> such that Next(s1, s2) and Next*(s1, s3) and Calls(p1, p2) and Calls*(p1, p3) with p1.procName = "B"
+1 B, 2 B, 3 B, 4 B, 5 B, 7 B, 8 B, 9 B, 10 B, 11 B, 12 B, 14 B, 15 B
+5000
+3 - Next,NextT,Calls,CallsT (synonym1, synonym2), With (attrRef = IDENT)
+stmt s1, s2, s3; procedure p1, p2, p3;
+Select <s3, p3> such that Next(s1, s3) and Next*(s2, s3) and Calls(p1, p3) and Calls*(p2, p3) with p2.procName= "B"
+2 C, 2 PrinterB, 3 C, 3 PrinterB, 4 C, 4 PrinterB, 5 C, 5 PrinterB, 6 C, 6 PrinterB, 8 C, 8 PrinterB, 9 C, 9 PrinterB, 10 C, 10 PrinterB, 11 C, 11 PrinterB, 12 C, 12 PrinterB, 13 C, 13 PrinterB, 15 C, 15 PrinterB, 16 C, 16 PrinterB
+5000
+4 - Next,NextT,Calls,CallsT (synonym, _), Modifies,Uses (IDENT, synonym)
+stmt s1, s2, s3; procedure p1, p2; variable v1, v2;
+Select s1.stmt# such that Next(s2, _) and Next*(s3, _) and Calls(p1, _) and Calls*(p2, _) such that Modifies("B", v1) such that Uses("B", v2)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+5000
+5 - Next,NextT,Calls,CallsT (synonym, _), Modifies,Uses (IDENT, synonym)
+stmt s; procedure p; variable v;
+Select <s.stmt#, v.varName> such that Next(s, _) and Next*(s, _) and Calls(p, _) and Calls*(p, _) such that Modifies("B", v) such that Uses("B", v)
+1 b, 1 c, 1 d, 2 b, 2 c, 2 d, 3 b, 3 c, 3 d, 4 b, 4 c, 4 d, 5 b, 5 c, 5 d, 7 b, 7 c, 7 d, 8 b, 8 c, 8 d, 9 b, 9 c, 9 d, 10 b, 10 c, 10 d, 11 b, 11 c, 11 d, 12 b, 12 c, 12 d, 14 b, 14 c, 14 d, 15 b, 15 c, 15 d
+5000
+6 - Next,NextT (synonym, INTEGER), Calls,CallsT (synonym, IDENT), With (synonym1 = synonym2)
+stmt s1, s2, s3, s4; procedure p1, p2, p3; prog_line l1, l2;
+Select <s1.stmt#, p1.procName> such that Next(s2, 9) and Next*(s3, 9) and Calls(p2, "C") and Calls*(p3, "PrinterB") with l1 = 9 and l2 = 9 and l1 = s1.stmt# and l1 = l2
+9 A, 9 B, 9 C, 9 PrinterB
+5000
+7 - Next,NextT (synonym, INTEGER), Calls,CallsT (synonym, IDENT), With (synonym1 = synonym2)
+stmt s; procedure p; prog_line l1, l2;
+Select <s.stmt#, p.procName, l1> such that Next(s, 9) and Next*(s, 9) and Calls(p, "C") and Calls*(p, "PrinterB") with "B" = p.procName and l1 = 4 and l2 = 4 and l1 = l2
+8 B 4, 12 B 4
+5000
+8 - Next,NextT,Calls,CallsT (_, synonym), With (attrRef = INTEGER)
+stmt s1, s2; procedure p1, p2;
+Select <s1, p1> such that Next(_, s2) such that Next*(_, s2) such that Calls(_, p2) such that Calls*(_, p2) with s1.stmt# = 1 with "NOFUN" = "NOFUN"
+1 A, 1 B, 1 C, 1 PrinterB
+5000
+9 - Next,NextT,Calls,CallsT (_, synonym), With (attrRef = INTEGER)
+stmt s1, s2; procedure p1, p2;
+Select <s1, p1> such that Next(_, s2) such that Next*(_, s2) such that Calls(_, p2) such that Calls*(_, p2) with 1 = s1.stmt# with "NOFUN" = "NOFUN"
+1 A, 1 B, 1 C, 1 PrinterB
+5000
+10 - Next,NextT,Calls,CallsT (_, synonym), With (attrRef = INTEGER)
+stmt s; procedure p;
+Select <s, p> such that Next(_, s) such that Next*(_, s) such that Calls(_, p) such that Calls*(_, p) with s.stmt# = 1 and p.procName = "B"
+
+5000
+11 - Next,NextT,Calls,CallsT (_, synonym), With (attrRef = INTEGER)
+stmt s; procedure p;
+Select <s, p> such that Next(_, s) such that Next*(_, s) such that Calls(_, p) such that Calls*(_, p) with s.stmt# = 2 and p.procName = "B"
+2 B
+5000
+12 - Next,NextT,Calls,CallsT (_, _), Modifies,Uses (IDENT, _)
+stmt s; procedure p; variable v;
+Select p.procName such that Next(_, _) such that Next*(_, _) such that Calls(_, _) such that Calls*(_, _) such that Modifies("C", v) such that Uses("C", v)
+A, B, C, PrinterB
+5000
+13 - Next,NextT(_, INTEGER), Calls,CallsT (_, IDENT), Modifies,Uses (IDENT, IDENT)
+stmt s; procedure p;
+Select p.procName such that Next(_, 6) such that Next*(_, 9) such that Calls(_, "PrinterB") such that Calls*(_, "PrinterB") such that Modifies("C", "d") such that Uses("C", "d")
+A, B, C, PrinterB
+5000
+14 - Next,NextT(_, INTEGER), Calls,CallsT (_, IDENT), Modifies,Uses (IDENT, IDENT)
+stmt s; procedure p;
+Select p.procName such that Next(_, 6) such that Next*(_, 9) such that Calls(_, "PrinterB") such that Calls*(_, "A") such that Modifies("C", "d") such that Uses("C", "d")
+
+5000
+15 - Next,NextT(INTEGER, synonym), Calls,CallsT (IDENT, synonym), While,If (synonym, ...)
+stmt s1, s2, s3; procedure p2, p3; while while; if if; variable v1, v2;
+Select s1 such that Next(12, s2) and Next*(12, s3) such that Calls("A", p2) and Calls*("A", p3) pattern while(v1, _) pattern if(v2, _, _)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+5000
+16 - Next,NextT(INTEGER, synonym), Calls,CallsT (IDENT, synonym), While,If (synonym, ...)
+stmt s; procedure p; while while; if if; variable v1, v2;
+Select <s, p, v1, v2> such that Next(12, s) and Next*(12, s) such that Calls("A", p) and Calls*("A", p) pattern while(v1, _) pattern if(v2, _, _)
+9 B c a
+5000
+17 - Next,NextT(INTEGER, synonym), Calls,CallsT (IDENT, synonym), While,If (synonym, ...)
+stmt s; procedure p; while while; if if; variable v;
+Select <s, p, v1, v2> such that Next(12, s) and Next*(12, s) such that Calls("A", p) and Calls*("A", p) pattern while(v, _) pattern if(v, _, _)
+
+5000
+18 - Next,NextT(INTEGER, synonym), CallsT (IDENT, synonym), While,If (synonym, ...)
+stmt s; procedure p; while while; if if; variable v1, v2;
+Select <s, p, v1, v2> such that Next(12, s) and Next*(12, s) such that Calls*("A", p) pattern while(v1, _) pattern if(v2, _, _)
+9 B c a, 9 C c a, 9 PrinterB c a
+5000
+19 - NextT(INTEGER, synonym), CallsT (IDENT, synonym), While,If (synonym, ...)
+stmt s; procedure p; while while; if if; variable v1, v2;
+Select s such that Next*(12, s) such that Calls*("A", p) pattern while(v1, _) pattern if(v2, _, _)
+9, 10, 11, 12, 13
+5000
+20 - Next,NextT(INTEGER, _), Calls,CallsT (IDENT, _), While,If (_, ...)
+while while; if if;
+Select <while, if> such that Next(12, _) and Next*(12, _) such that Calls("A", _) and Calls*("A", _) pattern while(_, _) pattern if(_, _, _)
+9 3
+5000
+21 - Next,NextT(INTEGER, _), Calls,CallsT (IDENT, _), While,If (_, ...)
+while while; if if;
+Select <while, if> such that Next(6, _) and Next*(12, _) such that Calls("A", _) and Calls*("A", _) pattern while(_, _) pattern if(_, _, _)
+
+5000
+22 - Next,NextT(INTEGER, _), Calls,CallsT (IDENT, _), While,If (_, ...)
+while while; if if;
+Select <while, if> such that Next(12, _) and Next*(12, _) such that Calls("PrinterB", _) and Calls*("A", _) pattern while(_, _) pattern if(_, _, _)
+
+5000
+23 - Next,NextT(INTEGER, INTEGER), Calls,CallsT (IDENT, IDENT), While,If (IDENT, ...)
+while while; if if;
+Select <while, if> such that Next(12, 9) and Next*(12, 11) such that Calls("A", "B") and Calls*("A", "PrinterB") pattern while("c", _) pattern if("a", _, _)
+9 3
+5000
+24 - Next,NextT(INTEGER, INTEGER), Calls,CallsT (IDENT, IDENT), While,If (IDENT, ...)
+while while; if if;
+Select <while, if> such that Next(12, 9) and Next*(12, 11) such that Calls("A", "B") and Calls*("A", "PrinterB") pattern while("a", _) pattern if("a", _, _)
+
+5000
+25 - Next,NextT(INTEGER, INTEGER), Calls,CallsT (IDENT, IDENT), While,If (IDENT, ...)
+while while; if if;
+Select <while, if> such that Next(12, 9) and Next*(12, 11) such that Calls("A", "B") and Calls*("A", "PrinterB") pattern while("c", _) pattern if("c", _, _)
+
+5000
+26 - Next,NextT(INTEGER, INTEGER), Calls,CallsT (IDENT, IDENT), While,If (IDENT, ...)
+while while; if if;
+Select <while, if> such that Next(12, 9) and Next*(12, 13) such that Calls("A", "B") and Calls*("A", "PrinterB") pattern while("c", _) pattern if("a", _, _)
+9 3
+5000
+27 - Next,NextT(INTEGER, INTEGER), Calls,CallsT (IDENT, IDENT), While,If (IDENT, ...)
+while while; if if;
+Select <while, if> such that Next(12, 9) and Next*(13, 14) such that Calls("A", "B") and Calls*("A", "PrinterB") pattern while("c", _) pattern if("a", _, _)
+
+5000
+28 - Next,NextT(INTEGER, INTEGER), Calls,CallsT (IDENT, IDENT), While,If (IDENT, ...)
+while while; if if;
+Select <while, if> such that Next(12, 9) and Next*(12, 11) such that Calls("A", "PrinterB") and Calls*("A", "PrinterB") pattern while("c", _) pattern if("a", _, _)
+
+5000
+29 - Select call
+call c;
+Select c
+6, 12, 13
+5000
+30 - Select prog_line
+prog_line p;
+Select p
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+5000
+31 - With (synonym1, synonym2)
+prog_line p1, p2, p3;
+Select p1 with p2 = p3
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+5000
+32 - With (IDENT = IDENT), With (INTEGER = INTEGER), With (attrRef = attrRef), With (synonym, synonym)
+stmt s; prog_line p;
+Select s with "a" = "a" and 1 = 1 and s.stmt# = s.stmt# and p = p
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+5000
+33 - Parent where first argument is not a container statement
+assign a;
+Select a such that Parent(a, _)
+
+5000

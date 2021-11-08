@@ -1,0 +1,9 @@
+procedure oreo {
+    print read;
+    if (i < 0 ) then {
+	b = c + a;
+    } else {
+	c = a + b;
+    }
+    a = b + c;
+}

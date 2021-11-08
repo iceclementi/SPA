@@ -1,0 +1,67 @@
+procedure main {
+    var = 1+2+3+4+5+6+7+8+9+10+11+12;
+    read var;
+    print var;
+    x = 0;
+    while(var<0){ 
+	    read x;
+	    print x;
+        while(var<0){ 
+	        read x;
+	        print x;
+        }
+        x = 0;
+        if(var==0) then { 
+            read x;
+            var = 3+1;
+            print x;
+        } else {
+            var = 2+2;
+        }
+    }
+    print var;
+    read var;
+    if(var==0) then { 
+        var = 3+1;
+        read x;
+        print x;
+    } else {
+        var = 2+2;
+        read var;
+         x = 0;
+        print var;
+    }
+    while(var<0){ 
+	 x = 0;
+    }
+}
+
+procedure um {
+  a = 1;
+  read d;
+  print c;
+  if (b == 1) then {
+    c = b + a;
+    d = a;
+    e = c;
+  } else {
+    c = b - a;
+    f = c;
+    e = a;
+  }
+  if (b == 1) then {
+    c = b + a;
+    d = 1 + 2 + 3 + 4 * 5 + 1;
+    e = c + 1 * 2;
+  } else {
+    c = c + b - a;
+    f = c;
+    e = e + a + 1 * 2;
+  }
+  print a;
+  print b;
+  print c;
+  read e;
+  read f;
+  read g;
+}

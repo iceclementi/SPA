@@ -1,0 +1,24 @@
+procedure proc1 {
+   if ( var1 > 2) then {
+        read var1;
+        print var2;
+        var3 = var3 * var3;
+        if (var3 >= 3) then {
+            read var3;
+            print var4;
+            var4 = var4 * var5;
+        } else {
+            read var6;
+            print var7;
+            var8 = var9 + 10;
+        }
+        read var10;
+        print var11;
+        var12 = var12 / 5;
+    } else {
+            read var11;
+            print var12;
+            var12 = var13 / 5;
+    }
+
+}

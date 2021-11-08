@@ -1,0 +1,393 @@
+procedure a {
+    call f;
+    white = current + advise + advance + firm ;
+    its = inside + goes + hummock + work ;
+    call g;
+    if (i < 0) then {
+        shun = favor + firm + whence + whence ;
+        days = astonied + way + dream + somewhere ;
+    } else {
+        white = showed + terms + fire + inside ;
+    }
+    if (i < 0) then {
+        disappoint = claims + sport + asked + cells ;
+        muster = mouth + sable + waver + muster ;
+        while (i < 0) {
+            if (i < 0) then {
+                doing = stricken + hardly + inside + current ;
+                asked = by + snuff + seamews + inside ;
+                lot = doing + comes + seems + comes ;
+            } else {
+                sable = current + muster + favor + snuff ;
+            }
+            advance = firm + way + position + lot ;
+            small = stricken + stricken + put + shore ;
+        }
+        relate = report + tussock + belie + crowd ;
+        call f;
+        call g;
+        use = traditional + explained + photograph + communist ;
+        threaten = owe + build + put + crowd ;
+        sable = wine + showed + dream + astonied ;
+    } else {
+        asked = fire + larger + meaning + claims ;
+    }
+    if (i < 0) then {
+        report = wine + seems + snuff + industry ;
+    } else {
+        wine = seamews + whet + whence + turn ;
+    }
+    advise = edge + crowd + total + brazen ;
+}
+procedure b {
+    its = industry + preach + build + showed ;
+    dream = as + station + cesspool + sable ;
+    while (i < 0) {
+        if (i < 0) then {
+            call c;
+            if (i < 0) then {
+                stricken = its + edge + build + edge ;
+            } else {
+                degree = story + as + position + degree ;
+            }
+            sport = days + modern + report + total ;
+        } else {
+            turn = hummock + shun + lot + by ;
+        }
+        if (i < 0) then {
+            comes = turn + brazen + whet + disappoint ;
+            call c;
+            while (i < 0) {
+                tussock = by + position + booby + degree ;
+            }
+            terms = preach + habergeon + build + use ;
+            station = edge + vote + burnished + owe ;
+        } else {
+            belie = numbers + claims + year + comes ;
+        }
+    }
+    asked = by + origin + habergeon + crowd ;
+    stricken = hardly + war + asked + lived ;
+    edge = use + burnished + its + cells ;
+    call e;
+    firm = advance + stricken + origin + meaning ;
+    mouth = vote + agin + priest + preach ;
+    while (i < 0) {
+        preach = numbers + fire + small + by ;
+        muster = clothe + turn + showed + firm ;
+        burgeon = manner + cells + sable + whence ;
+        fire = sable + neck + priest + mission ;
+    }
+    current = sable + whet + belie + whet ;
+}
+procedure c {
+    if (i < 0) then {
+        if (i < 0) then {
+            origin = seems + report + story + belie ;
+            communist = belie + burnished + agin + hung ;
+        } else {
+            priest = hummock + numbers + station + meaning ;
+            shun = traditional + turn + agin + owe ;
+        }
+        while (i < 0) {
+            burgeon = shore + shun + industry + meaning ;
+            numbers = relate + brazen + cesspool + charge ;
+            origin = hummock + degree + edge + astonied ;
+        }
+    } else {
+        while (i < 0) {
+            stricken = claims + somewhere + eyes + whence ;
+        }
+        call i;
+        call d;
+        if (j < 0) then {
+            seems = build + dont + year + charge ;
+            total = origin + station + astonied + shore ;
+            white = build + priest + cells + story ;
+            if (i < 0) then {
+                station = disappoint + seamews + as + terms ;
+                cells = total + terms + firm + degree ;
+                mouth = cesspool + lived + waver + industry ;
+            } else {
+                mission = fast + showed + station + seamews ;
+                comes = neck + firm + charge + shore ;
+            }
+            mission = claims + report + hung + advance ;
+        } else {
+            put = position + hung + favor + degree ;
+            goes = habergeon + snuff + firm + whence ;
+        }
+        completion = explained + relate + asked + communist ;
+    }
+    wine = build + photograph + turn + hardly ;
+    brazen = its + communist + burgeon + story ;
+}
+procedure d {
+    preach = goes + photograph + meaning + burgeon ;
+    call j;
+    vote = way + claims + mouth + claims ;
+    if (i < 0) then {
+        sport = current + neck + year + indeed ;
+        shore = eyes + waver + manner + manner ;
+        lot = work + degree + as + agin ;
+        cells = lived + muster + edge + owe ;
+        while (i < 0) {
+            lot = hung + put + dream + preach ;
+            claims = goes + war + astonied + tussock ;
+        }
+        build = small + numbers + priest + war ;
+        inside = year + mission + goes + industry ;
+        seems = booby + comes + somewhere + priest ;
+    } else {
+        meaning = its + freedom + eyes + disappoint ;
+        call g;
+        if (i < 0) then {
+            position = manner + total + by + whet ;
+            freedom = industry + sport + white + dont ;
+        } else {
+            sport = habergeon + dont + advance + snuff ;
+        }
+        relate = communist + preach + manner + small ;
+    }
+    while (i < 0) {
+        if (i < 0) then {
+            war = lived + shore + goes + disappoint ;
+        } else {
+            completion = its + as + burnished + drag ;
+        }
+        communist = modern + white + muster + days ;
+        stricken = brazen + cells + hardly + lot ;
+    }
+    burgeon = put + advise + current + turn ;
+    whet = manner + photograph + days + charge ;
+    doing = snuff + muster + days + use ;
+}
+procedure e {
+    call g;
+    days = traditional + seems + relate + its ;
+    sport = clothe + brazen + dont + mission ;
+    way = shore + neck + vote + crowd ;
+    if (i < 0) then {
+        wine = brazen + use + white + doing ;
+        advise = manner + relate + total + fire ;
+    } else {
+        call j;
+        whet = shun + cesspool + neck + dont ;
+        work = degree + lot + year + seamews ;
+        explained = degree + preach + edge + inside ;
+    }
+    seamews = faculty + advance + report + vote ;
+    origin = degree + belie + doing + completion ;
+    while (i < 0) {
+        call i;
+        while (i < 0) {
+            call g;
+            advise = booby + vote + terms + tussock ;
+            eyes = stricken + belie + build + meaning ;
+            call i;
+            if (k < 0) then {
+                its = its + neck + photograph + war ;
+            } else {
+                eyes = asked + story + degree + muster ;
+            }
+            call h;
+            shun = snuff + story + hummock + inside ;
+            brazen = crowd + booby + agin + report ;
+            claims = dream + drag + favor + indeed ;
+            faculty = asked + explained + as + cells ;
+        }
+        doing = larger + lot + mouth + wine ;
+    }
+    brazen = firm + claims + traditional + indeed ;
+}
+procedure f {
+    while (i < 0) {
+        indeed = way + freedom + brazen + small ;
+        shun = eyes + astonied + degree + hummock ;
+    }
+    while (i < 0) {
+        while (i < 0) {
+            while (j < 0) {
+                booby = belie + vote + whet + modern ;
+                somewhere = booby + threaten + days + terms ;
+                snuff = mouth + comes + small + use ;
+            }
+            shun = its + completion + larger + days ;
+        }
+        call g;
+        vote = total + meaning + use + lot ;
+        completion = tussock + edge + disappoint + somewhere ;
+        belie = faculty + position + showed + explained ;
+    }
+    total = turn + use + astonied + waver ;
+    if (i < 0) then {
+        comes = communist + sable + modern + station ;
+        by = lived + current + burnished + fast ;
+    } else {
+        when = wine + lived + fast + origin ;
+        if (i < 0) then {
+            when = origin + position + way + total ;
+            eyes = build + muster + freedom + turn ;
+            meaning = way + faculty + whet + firm ;
+        } else {
+            somewhere = drag + claims + owe + story ;
+            lived = hummock + priest + story + threaten ;
+            sable = mouth + doing + brazen + fire ;
+        }
+        communist = cesspool + booby + war + advance ;
+    }
+    crowd = numbers + manner + faculty + waver ;
+    fire = disappoint + dont + freedom + freedom ;
+    muster = photograph + inside + snuff + stricken ;
+}
+procedure g {
+    while (i < 0) {
+        war = indeed + threaten + relate + threaten ;
+        hardly = meaning + lot + war + year ;
+    }
+    while (i < 0) {
+        if (i < 0) then {
+            somewhere = neck + meaning + tussock + photograph ;
+            photograph = freedom + ordinary + firm + white ;
+            while (k < 0) {
+                meaning = preach + its + mission + whet ;
+                sable = relate + dont + when + hummock ;
+            }
+            muster = waver + whet + current + drag ;
+        } else {
+            hummock = neck + brazen + indeed + hummock ;
+            while (i < 0) {
+                call i;
+                lot = burnished + drag + crowd + ordinary ;
+                numbers = tussock + wine + wine + lot ;
+                white = habergeon + sport + whence + asked ;
+            }
+        }
+    }
+    while (i < 0) {
+        industry = as + whet + station + claims ;
+        asked = wine + small + story + advise ;
+        charge = astonied + sable + habergeon + seems ;
+    }
+    while (i < 0) {
+        eyes = war + muster + days + degree ;
+        use = meaning + hummock + burgeon + comes ;
+        favor = doing + burnished + shun + white ;
+        stricken = clothe + favor + modern + wine ;
+        whence = turn + by + burgeon + terms ;
+        sport = story + burgeon + brazen + belie ;
+    }
+    dont = favor + manner + sport + work ;
+    build = clothe + report + build + crowd ;
+}
+procedure h {
+    call i;
+    while (i < 0) {
+        while (i < 0) {
+            call j;
+            build = communist + story + booby + astonied ;
+            burgeon = hummock + freedom + report + build ;
+            hung = hardly + manner + freedom + priest ;
+        }
+        call j;
+        call j;
+        claims = sable + small + put + inside ;
+        call j;
+        communist = claims + threaten + war + whet ;
+        sable = advise + larger + owe + lot ;
+        vote = goes + degree + relate + tussock ;
+    }
+    if (i < 0) then {
+        charge = faculty + war + dont + fast ;
+        drag = vote + station + faculty + lot ;
+        cells = asked + put + waver + lived ;
+    } else {
+        when = preach + wine + shore + clothe ;
+        shore = snuff + drag + when + edge ;
+        station = drag + whence + sable + belie ;
+    }
+    use = lived + brazen + goes + seems ;
+    wine = whet + industry + lot + cesspool ;
+    as = terms + crowd + burnished + photograph ;
+    seems = as + sable + goes + mouth ;
+    white = total + asked + meaning + cesspool ;
+    burgeon = traditional + wine + inside + whet ;
+    terms = showed + year + origin + somewhere ;
+    position = use + work + small + communist ;
+    industry = larger + put + mouth + burnished ;
+}
+procedure i {
+    communist = hardly + charge + by + wine ;
+    if (i < 0) then {
+        call j;
+        call j;
+        mouth = put + mission + small + war ;
+        whet = sable + snuff + work + vote ;
+        if (i < 0) then {
+            dont = current + small + year + charge ;
+        } else {
+            build = crowd + hung + goes + industry ;
+        }
+        call j;
+        dont = industry + asked + waver + advance ;
+        seems = burgeon + lot + astonied + story ;
+        while (i < 0) {
+            mission = manner + faculty + seamews + agin ;
+            seamews = current + as + stricken + sable ;
+            origin = put + comes + terms + shore ;
+        }
+    } else {
+        seems = shun + days + stricken + completion ;
+        if (i < 0) then {
+            threaten = burnished + build + cesspool + white ;
+        } else {
+            meaning = neck + neck + as + advise ;
+        }
+        lot = comes + story + meaning + ordinary ;
+        explained = neck + disappoint + sport + cells ;
+    }
+    year = disappoint + neck + eyes + days ;
+    call j;
+    booby = hung + its + habergeon + tussock ;
+    charge = astonied + charge + terms + current ;
+    call j;
+    ordinary = charge + terms + freedom + seamews ;
+    charge = snuff + dont + edge + disappoint ;
+    modern = inside + manner + indeed + whence ;
+}
+procedure j {
+    lived = mission + numbers + origin + seems ;
+    dream = larger + way + cells + neck ;
+    if (i < 0) then {
+        vote = tussock + days + by + disappoint ;
+        while (i < 0) {
+            firm = manner + indeed + vote + stricken ;
+            advance = burnished + ordinary + inside + manner ;
+        }
+        while (i < 0) {
+            as = turn + whet + use + neck ;
+            its = belie + its + threaten + mouth ;
+            whence = agin + report + by + burnished ;
+        }
+        industry = turn + sport + total + relate ;
+    } else {
+        mouth = lot + hardly + faculty + burgeon ;
+        eyes = eyes + neck + dream + build ;
+        meaning = drag + cells + eyes + goes ;
+    }
+    threaten = habergeon + relate + photograph + priest ;
+    while (i < 0) {
+        brazen = position + dream + station + drag ;
+        by = degree + mission + current + asked ;
+        goes = way + advance + advance + clothe ;
+        snuff = firm + current + communist + war ;
+    }
+    while (i < 0) {
+        firm = photograph + sable + favor + its ;
+        advance = modern + edge + explained + hardly ;
+    }
+    communist = larger + sport + threaten + shun ;
+    put = seamews + by + larger + seems ;
+    communist = whet + story + relate + wine ;
+    faculty = meaning + put + claims + snuff ;
+}

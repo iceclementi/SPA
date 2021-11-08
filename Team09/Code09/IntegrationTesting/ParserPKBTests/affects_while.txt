@@ -1,0 +1,18 @@
+procedure while {
+    xx = yy;
+    y = x;
+    while (i < 0) {
+        xx = y;
+        e = d;
+        d = c;
+        c = b;
+        b = a;
+        a = b;
+        s = y;
+    }
+    yy = xx;
+    x = y;
+}
+
+
+

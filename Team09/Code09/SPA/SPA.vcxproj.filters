@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\QPS">
+      <UniqueIdentifier>{690cafd8-afae-4f52-be5b-938893df8831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PKB">
+      <UniqueIdentifier>{b3a95654-b4f7-4252-aeb6-a39db79c3d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SP">
+      <UniqueIdentifier>{8b6e5aed-267e-482c-8bff-1393cac87fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PKB">
+      <UniqueIdentifier>{5d01c658-aeb9-4a17-9c21-dafe77c744ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QPS">
+      <UniqueIdentifier>{361cd454-30e5-42a0-8d15-a4247b876cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SP">
+      <UniqueIdentifier>{b35e6722-ae4f-459d-b4ff-736fb29eb648}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\ExpressionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SynonymTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\DesignExtractor.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryOptimiser.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryEvaluator.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryPreprocessor.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SynonymTable.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PKB.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Tokenizer.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SourceParser.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\TNode.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryClauseEvaluator.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\OptimiserUtility.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\OnDemandExtractor.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SynonymTableManager.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryGroup.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryObject.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryClause.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QuerySelectResult.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryElement.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryArgument.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SuchThatClause.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PatternClause.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WithClause.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\RelationshipCache.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PKBStorage.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SynonymStorage.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\MiniTable.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\ExpressionParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SynonymTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PKB.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryOptimiser.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PatternClause.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Query.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryEvaluator.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryObject.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryPreprocessor.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SuchThatClause.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SynonymTable.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\DesignExtractor.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SourceParser.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\TNode.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Tokenizer.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\OptimiserUtility.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryArgument.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryClause.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QuerySelectResult.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\WithClause.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\OnDemandExtractor.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SynonymStorageManager.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryGroup.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryClauseEvaluator.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SynonymStorage.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\RelationshipCache.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PKBStorage.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\MiniTable.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryElement.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

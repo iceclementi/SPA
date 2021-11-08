@@ -1,0 +1,8 @@
+procedure oreo {
+    middle = b + c;
+    while (i <= 0) {
+        b = a - c;
+    }
+    print spoon;
+}
+    

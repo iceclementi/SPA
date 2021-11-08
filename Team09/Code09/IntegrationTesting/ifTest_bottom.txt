@@ -1,0 +1,9 @@
+procedure bottom {
+    print read;
+    a = b + c;
+    if (i < 0 ) then {
+	b = c + a;
+    } else {
+	c = a + b;
+    }
+}

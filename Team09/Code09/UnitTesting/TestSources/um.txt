@@ -1,0 +1,49 @@
+procedure um {
+  a = 1;
+  read d;
+  print c;
+  if (b == 1) then {
+    c = b + a;
+    d = a;
+    e = c;
+  } else {
+    c = b - a;
+    f = c;
+    e = a;
+  }
+  print a;
+  print b;
+  print c;
+  read e;
+  read f;
+  read g;
+}
+
+procedure um2 {
+  while (C != 0) {
+    C = C - 1;
+    D = D * 2;
+    A = C / D;
+    print A;
+  }
+  read B;
+  B = B + 1 * ( E - F );
+  print B;
+  read A;
+  G = 6 % E;
+  print E;
+  read B;
+  B = C + (E * B);
+  print B;
+  G = (A + 4) / (B % F);
+  F = C;
+  while (!(E <= 0)) {
+    if ((B >= 3) && (A < 7)) then {
+      C = B + 8;
+    } else {
+      while (A > 5) {
+        D = F - E;
+      }
+    }
+  }
+}

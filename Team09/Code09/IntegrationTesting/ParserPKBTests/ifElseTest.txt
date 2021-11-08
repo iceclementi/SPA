@@ -1,0 +1,11 @@
+procedure proc1 {
+    if ( var1 < 1) then {
+        print var1;
+        read var2;
+        var3 =  var4 + 2;
+    } else {
+        print var5;
+        read var6;
+        var7 =  var8 - var9;
+    }
+}

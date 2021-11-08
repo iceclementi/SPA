@@ -1,0 +1,36 @@
+procedure proc1{
+    print var1;
+    read var2;
+    call proc2;
+    var3 = 1 + var4;
+    if (var5 > 2 ) then {
+        print var6;
+        read var7;
+        call proc3;
+        var8 = 3 - var9;
+        if (var10 >= 4 ) then {
+            print var11;
+            read var12;
+            call proc4;
+            var13 = 5 - var14;
+        } else {
+            print var15;
+            read var16;
+            call proc5;
+            var17 = 6 / var18;
+        }
+        print var19;
+        read var20;
+        call proc6;
+        var21 = 7 * var22;
+    } else {
+        print var23;
+        read var24;
+        call proc7;
+        var25 = 8 % var26;
+    }
+    print var27;
+    read var28;
+    call proc8;
+    var29 = 9 + var30 - 10;
+}

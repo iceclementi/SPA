@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MockAst.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="MockToken.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBasicStorage.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_SynonymStorage.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Affects_AffectsStar.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Calls_CallsStar.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Follows_FollowsStar.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Modifies.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Next_NextStar.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Parent_ParentStar.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Pattern.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_Uses.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryPreprocessor.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRelationshipCache.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRelationshipStorage.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSourceParser.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTNode.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTokenizer.cpp">
+      <Filter>Source Files\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_MiniTable.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryEvaluator_With.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+    <ClCompile Include="TestIndexTable.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStatementStorage.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAssignPatternStorage.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="TestQueryOptimiser.cpp">
+      <Filter>Source Files\QPS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MockToken.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="MockAst.h">
+      <Filter>Header Files\SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBasicStorage.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Follows_FollowsStar.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Modifies.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Next_NextStar.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Parent_ParentStar.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Pattern.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Uses.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Calls_CallsStar.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_Affects_AffectsStar.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_SynonymStorage.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRelationshipCache.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRelationshipStorage.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_MiniTable.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryEvaluator_With.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestIndexTable.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="TestStatementStorage.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAssignPatternStorage.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="TestQueryOptimiser.h">
+      <Filter>Header Files\QPS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d21f6b70-36a9-4081-9fba-113cfa3781b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51439fcb-c7f4-4797-9e57-bbde627fd5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PKB">
+      <UniqueIdentifier>{614ef2b3-b365-4468-8c98-da6bb681ea0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QPS">
+      <UniqueIdentifier>{f1141235-ef73-4383-891a-8abb21472c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SP">
+      <UniqueIdentifier>{41878c60-3b08-440c-9f8c-729dd87562df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PKB">
+      <UniqueIdentifier>{84e2d6b0-89b1-4afa-a2c0-b1b7e820752a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QPS">
+      <UniqueIdentifier>{f60b2be7-50a2-4828-89ca-b7af256eb6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SP">
+      <UniqueIdentifier>{f65739a9-3efe-420d-8e53-223916c06844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,85 @@
+procedure dontTakeDrugKids {
+    
+    while (i < 10) {
+	print a;
+	    while (word == (byte * 4)) {
+	        print A;
+	    }
+	print procedure;
+    }
+
+    while (j > 10) {
+	call b;
+	call d;
+	while ((tn <= cfn) && (tn >= cfn)) {
+	    call c;
+	}
+    }
+
+    while (k <= 20) {
+	while ((i == 0) || (j==0)) {
+	    read while;
+	}
+	read print;
+	read read;
+    }
+
+    A = a + c;
+
+    while (x >= 69) {
+	while ((x + y) != collide) {
+	    a = a + A;
+	    while (i < 1) {
+		print a;
+	    	while (i < 2) {
+	        	    print A;
+	    	}
+	        print procedure;
+	    }
+             a = a + 1;
+    	}
+	
+	B = A + C;
+    
+   	while (i < 3) {
+	    B = 2 + 2;
+	    C = A - b;
+	    while (j < 1) {
+	        call b;
+	        call d;
+	        while (i < 1) {
+	            call c;
+	        }
+             }
+         }
+
+    	D = (a / b) * (c + D) - f;
+
+	while (i == 0) {
+	    recursion = wishful + thinking;
+	    rolling = hashing * friend;
+	    while (droppingout == 1) {
+		while (j == 0) {
+		    z = x + y;
+	             while ((work + kfc) == 1) {
+		        while (k != 0) {
+			    a = a / b;
+			    c = d * e;
+			    while (i < 0) {
+	    		        read while;
+			    }
+			    read print;
+			    read read;
+			}
+    		    }
+		    y = x + z;
+		}
+		rolling = in - deep * 100;
+		prof = lagging * badly * 9000;
+	    }
+	}
+   
+    }
+
+
+}

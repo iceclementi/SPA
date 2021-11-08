@@ -1,0 +1,228 @@
+procedure a {
+
+    while ( i > 0 ) {
+	if (i > 0 ) then {
+	    read a;
+	    while ( i < 0 ) {
+                read b;
+	        read b;
+		read bb;
+		read bbb;
+		read bbbb;
+		read bbbbb;
+		read bbbbbb;
+		read bbbbbbb;
+		read bbbbbbbb;
+		read bbbbbbbbb;
+		read bbbbbbbbbb;
+		read bbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+	    }
+	} else {
+	    read c;
+            while ( i < 0 ) {
+while ( i > 0 ) {
+	if (i > 0 ) then {
+	    read a;
+	    while ( i < 0 ) {
+                read b;
+	        read b;
+		read bb;
+		read bbb;
+		read bbbb;
+		read bbbbb;
+		read bbbbbb;
+		read bbbbbbb;
+		read bbbbbbbb;
+		read bbbbbbbbb;
+		read bbbbbbbbbb;
+		read bbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+	    }
+	} else {
+	    read c;
+            while ( i < 0 ) {
+while ( i > 0 ) {
+	if (i > 0 ) then {
+	    read a;
+	    while ( i < 0 ) {
+                read b;
+	        read b;
+		read bb;
+		read bbb;
+		read bbbb;
+		read bbbbb;
+		read bbbbbb;
+		read bbbbbbb;
+		read bbbbbbbb;
+		read bbbbbbbbb;
+		read bbbbbbbbbb;
+		read bbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+		read bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb;
+	    }
+	} else {
+	    read c;
+            while ( i < 0 ) {
+                read a;
+		read aa;
+		read aAA;
+		read aaaaaa;
+		read aaaaaaa;
+		read aaaaaaaa;
+		read aaaaaaaaaa;
+		read aaaaaaaaaaa;
+		read aaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+	    }
+	}
+
+    }
+                read a;
+		read aa;
+		read aAA;
+		read aaaaaa;
+		read aaaaaaa;
+		read aaaaaaaa;
+		read aaaaaaaaaa;
+		read aaaaaaaaaaa;
+		read aaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+	    }
+	}
+
+    }
+                read a;
+		read aa;
+		read aAA;
+		read aaaaaa;
+		read aaaaaaa;
+		read aaaaaaaa;
+		read aaaaaaaaaa;
+		read aaaaaaaaaaa;
+		read aaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+		read aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+	    }
+	}
+
+    }
+    
+    read c;
+    read cc;
+    read cccc;
+    read cccccccc;
+    read cccccccccccc;
+    read cccccccccccccccc;
+    read cccccccccccccccccc;
+    read ccccccccccccccccccccc;
+    read cccccccccccccccccccccccccc;
+    read cccccccccccccccccccccccccccccc;
+    read ccccccccccccccccccccccccccccccccccc;
+    read cccccccccccccccccccccccccccccccccccccccc;
+    read ccccccccccccccccccccccccccccccccccccccccccccc;
+    read cccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    read cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    read ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    read cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    read ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    read cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    read ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+
+
+
+}

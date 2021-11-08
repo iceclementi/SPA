@@ -1,0 +1,73 @@
+procedure A {
+1    a = b + c * d;
+2    b = a * d;
+3    call B;
+4    b = b / a / d;
+}
+
+procedure B {
+5    call C;
+6    call C;
+7    call C;
+}
+
+procedure C {
+8    d = a;
+9    a = b;
+10    b = c;
+11    c = d;
+12    call D;
+}
+
+procedure D {
+13    call E;
+14    while (i > 0) {
+15        i = 100;
+16        call Q2;
+      }
+17    if (i > 0) then {
+18        call Q2;
+19        i = 2000;
+      } else {
+20        i = i + 20;
+21        a = 10;
+22        call Q3;
+23        i = i - a;
+      }
+}
+
+procedure E {
+24    if (a > 0) then {
+25        while (b > 0) {
+26            a = b + c;
+27            b = c + a;
+28            d = a;
+          }
+      } else {
+29        c = a + b;
+      }
+30    while (c > 0) {
+31        if (d > 0) then {
+32            d = a + b + c;
+          } else {
+33            d = d;
+          }
+      }
+}
+
+procedure Q1 {
+34    read i;
+}
+
+procedure Q2 {
+35    i = i;
+}
+
+procedure Q3 {
+36    print i;
+37    if (a > 10) then {
+38        a = a / 5;
+    } else {
+39        b = a;
+    }
+}

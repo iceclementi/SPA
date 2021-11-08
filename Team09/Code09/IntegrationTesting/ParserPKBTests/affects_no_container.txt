@@ -1,0 +1,34 @@
+procedure nocontainer{
+    a = b;
+    c = a;
+    d = e;
+    f = h;
+    a = i;
+    f = a;
+    e = f;
+    read e;
+    f = e;
+    call a;
+    f = b;
+    call b;
+    i = f;
+}
+
+
+
+procedure a {
+    print a;
+    read b;
+    print c;
+    read d;
+}
+
+
+procedure b {
+    print e;
+    read f;
+    print g;
+    read h;
+}
+
+

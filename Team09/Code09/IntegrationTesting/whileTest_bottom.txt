@@ -1,0 +1,7 @@
+procedure bottom {
+    small = b + c;
+    print spoon;
+    while (i <= 0) {
+        b = a - c;
+    }
+}

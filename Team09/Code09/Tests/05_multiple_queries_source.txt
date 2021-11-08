@@ -1,0 +1,31 @@
+procedure A {
+    read a;
+    print a;
+    if (a == 1) then {
+        b = 2;
+    } else {
+        b = 3;
+    }
+    call B;
+}
+
+procedure B {
+    read c;
+    print c;
+    while (c != 0) {
+        b = b + 1;
+        c = c - 1;
+        call PrinterB;
+    }
+    call C;
+}
+
+procedure C {
+    read d;
+    print d;
+    c = d;
+}
+
+procedure PrinterB {
+    print b;
+}

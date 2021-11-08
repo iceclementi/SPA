@@ -1,0 +1,85 @@
+1 - Multiple connected clauses to Select clause
+stmt s1, s2, s3, s4, s5, s6, s7, s8; variable v; procedure p1, p2, p3;
+Select s1 such that Follows(s1, s2) and Follows*(s1, s3) and Parent(s2, s4) and Parent*(s4, s5) and Uses(s5, v) and Uses(p1, v) and Modifies(p2, v) and Modifies(s8, v) and Calls(p1, p2) and Calls*(p2, p3) and Next(s5, s6)
+2
+5000
+2 - Multiple Next*
+stmt s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11;
+Select s1 such that Next*(s1, s2) and Next*(s2, s3) and Next*(s3, s4) and Next*(s4, s5) and Next*(s5, s6) and Next*(s6, s7) and Next*(s7, s8) and Next*(s8, s9) and Next*(s9, s10) and Next*(s10, s11)
+2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24
+5000
+3 - Multiple Next
+stmt s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11;
+Select s1 such that Next(s1, s2) and Next(s2, s3) and Next(s3, s4) and Next(s4, s5) and Next(s5, s6) and Next(s6, s7) and Next(s7, s8) and Next(s8, s9) and Next(s9, s10) and Next(s10, s11)
+2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24
+5000
+4 - Select complex variable name
+variable v;
+Select v with v.varName = "qwertyuiopasdfghjklzxcvbnm1234567890"
+qwertyuiopasdfghjklzxcvbnm1234567890
+5000
+5 - Select complex procedure name
+procedure p;
+Select p with p.procName = "QWERTYUIOPASDFGHJKLZXCVBNM1234567890"
+QWERTYUIOPASDFGHJKLZXCVBNM1234567890
+5000
+6 - Multiple Calls*
+procedure p1, p2, p3, p4, p5;
+Select p1 such that Calls*(p1, p2) and Calls*(p2, p3) and Calls*(p3, p4) and Calls*(p4, p5)
+B
+5000
+7 - Multiple Calls
+procedure p1, p2, p3, p4, p5;
+Select p1 such that Calls(p1, p2) and Calls(p2, p3) and Calls(p3, p4) and Calls(p4, p5)
+B
+5000
+8 - Select assign statement with complex pattern 1
+assign a;
+Select a pattern a(_, _"(2 * (3 - (4 / (5 % (6 + (7 * (8 - (9 / 0))))))))"_)
+21
+5000
+9 - Select assign statement with complex pattern 2
+assign a;
+Select a pattern a(_, _"((((((((1 + 2) * 3) - 4) / 5) % 6) + 7) * 8) - 9)"_)
+22
+5000
+10 - Multiple assign pattern clauses 1
+assign a;
+Select a pattern a(_, _"(9 / 0)"_) and a(_, _"(8 - (9 / 0))"_) and a(_, _"(7 * (8 - (9 / 0)))"_) and a(_, _"(6 + (7 * (8 - (9 / 0))))"_) and a(_, _"(5 % (6 + (7 * (8 - (9 / 0)))))"_) and a(_, _"(4 / (5 % (6 + (7 * (8 - (9 / 0))))))"_) and a(_, _"(3 - (4 / (5 % (6 + (7 * (8 - (9 / 0)))))))"_) and a(_, _"(2 * (3 - (4 / (5 % (6 + (7 * (8 - (9 / 0))))))))"_)
+21
+5000
+11 - Multiple assign pattern clauses 2
+assign a;
+Select a pattern a(_, _"(1 + 2)"_) and a(_, _"((1 + 2) * 3)"_) and a(_, _"(((1 + 2) * 3) - 4)"_) and a(_, _"((((1 + 2) * 3) - 4) / 5)"_) and a(_, _"(((((1 + 2) * 3) - 4) / 5) % 6)"_) and a(_, _"((((((1 + 2) * 3) - 4) / 5) % 6) + 7)"_) and a(_, _"(((((((1 + 2) * 3) - 4) / 5) % 6) + 7) * 8)"_) and a(_, _"((((((((1 + 2) * 3) - 4) / 5) % 6) + 7) * 8) - 9)"_)
+22
+5000
+12 - Multiple while pattern clauses
+while w;
+Select w pattern w("a", _) and w("b", _) and w("c", _) and w("x", _) and w("y", _) and w("z", _)
+23
+5000
+13 - Multiple if pattern clauses
+if ifs;
+Select ifs pattern ifs("a", _, _) and ifs("b", _, _) and ifs("c", _, _) and ifs("x", _, _) and ifs("y", _, _) and ifs("z", _, _)
+25
+5000
+14 - Select complex constant value
+constant c;
+Select c with c.value = 123456789012345678901234567890
+123456789012345678901234567890
+5000
+15 - Select tuples of multiple Calls* clauses
+procedure p1, p2, p3, p4, p5;
+Select <p1, p2, p3, p4, p5> such that Calls*(p1, p2) and Calls*(p2, p3) and Calls*(p3, p4) and Calls*(p4, p5)
+B F G H QWERTYUIOPASDFGHJKLZXCVBNM1234567890
+5000
+16 - Select tuples of multiple Calls clauses
+procedure p1, p2, p3, p4, p5;
+Select <p1, p2, p3, p4, p5> such that Calls(p1, p2) and Calls(p2, p3) and Calls(p3, p4) and Calls(p4, p5)
+B F G H QWERTYUIOPASDFGHJKLZXCVBNM1234567890
+5000
+17 - Multiple clauses which are all true
+procedure p1, p2, p3, p4, p5; stmt s1, s2, s3; assign a1, a2, a3;
+Select s1 such that Calls*(p1, p2) and Calls*(p2, p3) and Calls*(p3, p4) and Calls*(p4, p5) and Next(7, 5) and Next(8, 5) and Next(5, 3) and Next(19, 3) and Next(3, 20) and Next(11, 10) and Next(10, 8) and Next(16, 14) and Next(17, 14) and Next(13, 8) and Next(10, 8) and Next*(9, 19) and Next*(16, 12) and Next*(3, 18) and Next*(4, 3) and Next*(s1, s2) and Parent(s1, s3) and Affects(a1, a2) and Affects*(a1, a3)
+3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 17, 23, 25
+5000
