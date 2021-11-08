@@ -1,13 +1,10 @@
-# Team 09
+# Static Program Analyser (SPA)
 
-> Please fill in this Readme with the required information, and delete this box.
-> 
-> 1. The `.gitigore` is already pre-configured, note that the included libraries files (ie. `Team00/Code00/lib`) must accompany this repository and not to be removed from the repository.
-> 2. Put your test cases inside the correct directory (ie. `Team00/Tests00/`) not inside the scratch test directory (ie. `Team00/Code00/tests/`). The `.gitignore` is configured to prevent this.
-> 3. If you encounter build issues, please visit the respective FAQ *before* reaching out for help:
->     1. [Windows-Startup-SPA-Solution FAQ](https://github.com/nus-cs3203/project-wiki/wiki/Windows-Startup-SPA-Solution#faq)
->     2. [Cross-platform-Startup-SPA-Solution FAQ](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution#faq)
-> 4. Avoid using removed/deprecated features in C++, make sure you use features that exist in C++17. It is not recommended to use an earlier version of C++, if you want to proceed, please specify the C++ version specifically in the build configuration.
+An **SPA** is an interactive tool that automatically answers queries about programs. This implementation of the program processes a SIMPLE source file provided by the user. and extracts and stores relevant design abstractions. Users can then ask questions about the input source in Program Query Language (PQL). The program will answer the users' queries  based on its stored design abstractions.
+
+The full wiki of the functionalities of the implemented SPA can be viewed [here](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements).
+
+The team's report can be viewed [here](/Team09-Report.pdf).
 
 ## Target Environment
 
